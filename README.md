@@ -1,0 +1,31 @@
+# [budget-service]
+
+## Overview
+This microservice handles Budget related data.
+
+## Features
+- RESTful APIs with CRUD operations
+- Swagger documentation for easy testing
+- In-memory H2 database for quick setup
+
+## Requirements
+- Java 17+
+- Maven 3.8+
+- Spring Boot 3+
+- Optional: Postman for API testing
+
+## Running the Service
+ ### 1. Clone the repository:
+        git clone https://github.com/balaji-rakusale/budget-service.git
+        cd <repo-name>
+ ### 2. Build and run:
+        mvn clean install
+        mvn spring-boot:run
+### 3. Access Swagger UI:
+       http://localhost:8081/swagger-ui/index.html
+### 4. H2 Console (if used):
+       http://localhost:8081/h2-console
+### 5. API Testing:
+       Postman collection attached to the email
+
+
