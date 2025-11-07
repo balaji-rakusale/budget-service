@@ -17,7 +17,6 @@ This microservice handles Budget related data.
 ## Running the Service
  ### 1. Clone the repository:
         git clone https://github.com/balaji-rakusale/budget-service.git
-        cd <repo-name>
  ### 2. Build and run:
         mvn clean install
         mvn spring-boot:run
